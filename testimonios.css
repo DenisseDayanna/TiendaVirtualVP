@@ -1,0 +1,89 @@
+header{
+    background-color: black;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    font-family: fantasy;
+    text-align: center;
+    line-height: 100px
+}
+
+main{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+}
+
+aside{
+    background-color: lightgray;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    text-align:center;
+    line-height: 25px
+}
+
+body{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+
+@media all  and (min-width: 1024px){
+
+    .contenedor_flex_dos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .contenedor_flex_dos img{
+        width: 300px;
+    }
+
+    .contenedor_central_flex{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    header{
+        width: 30%;
+        height: 20vh;
+    }
+
+    nav{
+        width: 70%;
+        height: 20vh;
+    }
+
+    main{
+        width: 70%;
+        height: 90vh;
+    }
+
+    aside{
+        width: 30%;
+        height: 90vh;
+    }
+
+    aside img{
+        width: 300px;
+        align-items: center;
+        padding-top: 100px;
+        border-radius: 5px;
+    }
+
+    footer{
+        height: 10vh;
+    }
+}
